@@ -1,4 +1,5 @@
 public enum EnumSampleAbs {
+    //this is example of Enum with Abstract method
     MONDAY{
         public void dummyMethod(){
             System.out.println("in Monday");
