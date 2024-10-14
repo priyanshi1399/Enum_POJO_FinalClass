@@ -24,5 +24,4 @@ public enum EnumSampleAbs {
         EnumSampleAbs enumSample=EnumSampleAbs.MONDAY;
         enumSample.dummyMethod(); //o/p-in Monday // so abstract method can be there each constant has to define/implement it
     }
-
 }
