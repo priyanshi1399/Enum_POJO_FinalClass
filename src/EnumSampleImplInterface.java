@@ -7,7 +7,6 @@ public enum EnumSampleImplInterface implements MyInterface{
     SATURDAY,
     SUNDAY;
 
-
     //it is for each one  this is for all
     // interface is generally used when certain method is generally common for all
     @Override
