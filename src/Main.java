@@ -1,3 +1,5 @@
+import java.awt.geom.CubicCurve2D;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -21,5 +23,11 @@ public class Main {
         //2.usage of ValueOf() and name()
         SampleEnum enumVariable=SampleEnum.valueOf("FRIDAY"); //pass a string it match with the constants so it will return me the enumsampleobject
         System.out.println(enumVariable.name());*/
+
+
+        /*CustomEnumClass*/
+
+        CustomEnum sampleVariable=CustomEnum.getEnumValue(107);
+        System.out.println(sampleVariable.getComment());
     }
 }
