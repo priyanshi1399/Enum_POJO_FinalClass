@@ -11,9 +11,9 @@ public enum CustomEnum {
     private int val;
     private String comment; //for every custom values appropriate member variables you need to have
 
-    CustomEnum(int val, String commment) { //private only but parameterized constructor
+    CustomEnum(int val, String comment) { //private only but parameterized constructor
         this.val = val;
-        this.comment = commment;
+        this.comment = comment;
     //for each get comment they internally have their  version
     }
 
