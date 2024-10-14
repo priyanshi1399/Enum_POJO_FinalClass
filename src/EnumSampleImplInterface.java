@@ -17,6 +17,7 @@ public enum EnumSampleImplInterface implements MyInterface{
     }
 
 
+
     public static void main(String args[]){
         EnumSampleImplInterface enumSampleMonday=EnumSampleImplInterface.MONDAY;
         System.out.println(enumSampleMonday.toLowerCase()); //monday->O/P
