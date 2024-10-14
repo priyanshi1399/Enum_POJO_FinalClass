@@ -12,7 +12,8 @@ public enum EnumSampleImplInterface implements MyInterface{
     @Override
     public  String toLowerCase(){
         return name().toLowerCase(); //interface should provide its definition
-        //MONDAY object.toLowercase()-->change it to Monday
+        //MONDAY object.toLo
+        // wercase()-->change it to Monday
     }
 
 

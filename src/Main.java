@@ -25,9 +25,14 @@ public class Main {
         System.out.println(enumVariable.name());*/
 
 
-        /*CustomEnumClass*/
+        /*CustomEnumClass
 
         CustomEnum sampleVariable=CustomEnum.getEnumValue(107);
         System.out.println(sampleVariable.getComment());
+        */
+
+        /* Why Enum */
+
+
     }
 }
